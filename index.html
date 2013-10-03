@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC  >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Andika' rel='stylesheet' type='text/css'>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="jQuery Liquid carousel plugin"/>
+	<title>Simple Video Intro</title>
+	
+	  <link rel="stylesheet" href="css/basic.css" /> 
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="js/jquery.simplemodal.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('.vid_cover').modal({close:true , overlayClose:true});
+	});
+	</script>
+</head>
+<body>
+	<h1>Intro Video</h1>
+
+	<div class="vid_cover">
+		<header class="heading">Welcome to BenjaminThomsen.ca </header>
+		<img src="images/ben-vid-crop.png"/>
+		<div class="vid_wrapper">
+			<object height="350" width="500"><param name="movie" value="http://www.youtube.com/v/CS85ucxHF6k&autoplay=1" />
+				<embed height="350" src="http://www.youtube.com/v/CS85ucxHF6k&autoplay=1" type="application/x-shockwave-flash" width="500">
+				</embed>
+			</object>
+		</div>
+		<div id="short_bio">
+			
+			<p>
+				Benjamin is a member of the Canadian Alpine Ski team and will be representing his country at the Sochi 2014 Olympics. 
+				This is his personal website a place where you can learn more about him, his teamates, upcoming races and more.  
+			</p>
+			<a href="index.php" class="enter">Enter</a>
+		</div>
+			
+		</div>
+	</div>
+
+</body>
+</html>
+			<iframe width="560" height="315" src="//www.youtube.com/embed/CS85ucxHF6k&autoplay=1" frameborder="0" allowfullscreen></iframe>
